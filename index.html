@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>FORM VALIDATION</title>
+
+</head>
+<body>
+    <div class="heading">
+        <h1>Form Validation</h1>
+    </div>
+
+    <div class="container">
+        <form action="" method="get" class="form-fetch">
+            <h1 class="log">SIGNUP</h1>
+            <div class="item">
+                <p class="box1">
+                    <input type="text" name="name" id="nameField" class="box" placeholder="UserName" required/>
+                    <span class="nameError"></span>
+                </p>
+
+                <p class="remEmail">
+                    <input type="text" name="email" id="email" class="box" placeholder="email" required/>
+                    <span class="emailError"></span>
+                </p>
+                
+                <p class="box2">
+                    <input type="password" name="password" id="password" class="box" placeholder="PassWord" required/>
+                    <span class="passwordError"></span>
+                </p>    
+            </div>
+
+            <div class="item1">
+                <input type="submit" value="SIGNUP" id="btn">
+            </div>
+            <div class="p">
+                <p>Do have an Account ? <a href="" id="SIGNIN"> SIGNIN </a></p>
+            </div>
+
+            <div class="icon">
+                <a href="">
+                <img src="icons/facebook1.png" alt="facebook-icon">
+                <img src="icons/instagram.png" alt="instagram-icon">
+                <img src="icons/linkedin.png" alt="linkedin-icon">
+            </a>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
